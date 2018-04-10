@@ -20,6 +20,6 @@ $router->get('/key', function() {
  });
 
  $router->get('/users','usersController@users');
- $router->get('/find-users/{id:[0-9]+}','usersController@find');
- $router->post('/create-users','usersController@create');
+ //$router->get('/find-users/{id:[0-9]+}','usersController@find');
+ //$router->post('/create-users','usersController@create');
  //$router->put('/update-users','usersController@update');
